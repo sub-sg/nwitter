@@ -1,9 +1,7 @@
 import React from 'react';
 //import ReactDOM from 'react-dom';       // Before: react version 17
 import ReactDOM from 'react-dom/client';  // After : react version 18
-import App from './components/App';
-import firebase from "./firebase"
-console.log(firebase);
+import App from "./components/App";
 
 /* v17
 ReactDOM.render(

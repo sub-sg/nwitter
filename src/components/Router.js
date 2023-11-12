@@ -4,7 +4,7 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";     // A
 import Auth from "../routes/Auth";
 import Home from "../routes/Home";
 
-const AppRounter = ({ isLoggedIn }) => {
+const AppRouter = ({ isLoggedIn }) => {
     return (
             <div>
                 <Router>
@@ -38,4 +38,4 @@ const AppRounter = ({ isLoggedIn }) => {
         )
 };
 
-export default AppRounter;
+export default AppRouter;
